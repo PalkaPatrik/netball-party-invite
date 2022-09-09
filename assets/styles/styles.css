@@ -1,6 +1,5 @@
 .page-header {
   height: 35vh;
-  width: 75%;
   background-color: #f0f0aa;
   display: flex;
   flex-direction: column;
@@ -14,4 +13,11 @@
 
 .nav .nav-link.active {
   color: #190933;
+}
+
+.page-content {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding-top: 1.5rem;
 }
