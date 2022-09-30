@@ -1,6 +1,10 @@
 .page-header {
-  height: 35vh;
+  height: 40vh;
   background-color: #f0f0aa;
+  color: #fff;
+  background-image: url('../images/img-0.JPG');
+  background-size: cover;
+  background-position: center 45%;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -9,10 +13,18 @@
 
 .nav .nav-link {
   color: #363636;
+  background-color: #f0f0f0;
+}
+
+.nav-link:hover {
+  color: #190933;
+  background-color: #fff;
+  transition-duration: .15s;
 }
 
 .nav .nav-link.active {
   color: #190933;
+  background-color: #fff;
 }
 
 .page-content {
