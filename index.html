@@ -12,7 +12,7 @@
         >
         <title>Nohejbal 2022</title>
         <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/styles/styles.css">
+        <link rel="stylesheet" href="assets/styles/styles.02-10-22.css">
     </head>
     <body class="container-fluid">
         <header class="container page-header">
@@ -53,26 +53,41 @@
             </ul>
         </header>
 
+
+
         <section class="container card page-content">
             <div class="card-body">
                 <div class="row">
-                    <article class="col-4">
+                    <article class="col-4 d-flex flex-column">
                         <h3 class="card-title">Kdy a kde?</h3>
                         <div class="card-text">
                             <ul>
                                 <li>14. 10. 2022</li>
                                 <li>11:00</li>
-                                <li>[adresa hřiště]</li>
+                                <li>
+                                    Hřiště poblíž hasičárny SDH Svítkov-Popkovice
+                                </li>
                             </ul>
                         </div>
-                        <button class="btn btn-info">Navigovat</button>
+                        <a
+                            href="https://goo.gl/maps/p9uGbxw5MRK6qLNVA"
+                            target="_blank"
+                            class="btn btn-dark justify-self-center"
+                        >
+                            Navigovat
+                        </a>
                     </article>
                     <div class="col">
-                        <image
-                            class="img-fluid"
-                            src="#"
-                            alt="Mapa k hřišti"
-                        ></image>
+                        <iframe
+                            id="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.3406211559472!2d15.729654015433825!3d50.01963334597635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470dcb55b9fa67cb%3A0x82c1f3261aed3f84!2sHasi%C4%8Di%20Sv%C3%ADtkov%20-Popkovice%2C%20Pardubice!5e0!3m2!1sen!2scz!4v1664708808417!5m2!1sen!2scz"
+                            height="200"
+                            class="w-100"
+                            style="border:0;"
+                            allowfullscreen
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                     </div>
                 </div>
                 <div class="row mt-3">
